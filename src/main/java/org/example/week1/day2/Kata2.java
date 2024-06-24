@@ -1,4 +1,4 @@
-package org.example.day2;
+package org.example.week1.day2;
 
 public class Kata2 {
 
