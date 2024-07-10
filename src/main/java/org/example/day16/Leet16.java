@@ -11,7 +11,7 @@ package org.example.day16;
 
 public class Leet16 {
 
-    public int guessNumber(int n) {
+    /*public int guessNumber(int n) {
         int low = 1, high = n, mid, result;
         while (low <= high) {
             mid = low + (high - low) / 2;
@@ -25,6 +25,6 @@ public class Leet16 {
             }
         }
         return -1;
-    }
+    }*/
 
 }
