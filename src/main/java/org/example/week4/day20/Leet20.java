@@ -1,23 +1,21 @@
-package org.example.day19;
+package org.example.week4.day20;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-class Leet19 {
+class Leet20 {
 
-    public List<Integer> inorderTraversal(TreeNode root) {
+    public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<>();
+        if (root == null) return result;
         Stack<TreeNode> stack = new Stack<>();
-        TreeNode current = root;
-        while (current != null || !stack.isEmpty()) {
-            while (current != null) {
-                stack.push(current);
-                current = current.left;
-            }
-            current = stack.pop();
-            result.add(current.val);
-            current = current.right;
+        stack.push(root);
+        while (!stack.isEmpty()) {
+            TreeNode node = stack.pop();
+            result.add(node.val);
+            if (node.right != null) stack.push(node.right);
+            if (node.left != null) stack.push(node.left);
         }
         return result;
     }

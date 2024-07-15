@@ -1,4 +1,4 @@
-package org.example.day17;
+package org.example.week4.day17;
 
 class Leet17 {
 
