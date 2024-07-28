@@ -1,4 +1,4 @@
-package org.example.day21;
+package org.example.week5.day21;
 
 import java.util.LinkedList;
 import java.util.List;
