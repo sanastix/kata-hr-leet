@@ -1,0 +1,1 @@
+select ceil(avg(Salary) - avg(cast(replace(cast(Salary as char), '0', '') as signed))) from EMPLOYEES;

@@ -1,4 +1,4 @@
-package org.example.day32;
+package org.example.week7.day32;
 
 public class Kata32 {
 
