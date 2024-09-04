@@ -1,4 +1,4 @@
-package org.example.day38;
+package org.example.week8.day38;
 
 public class Leet38 {
 
