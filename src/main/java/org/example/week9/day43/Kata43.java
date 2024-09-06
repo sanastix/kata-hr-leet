@@ -1,4 +1,4 @@
-package org.example.day43;
+package org.example.week9.day43;
 
 import java.util.EnumMap;
 import java.util.Map;
