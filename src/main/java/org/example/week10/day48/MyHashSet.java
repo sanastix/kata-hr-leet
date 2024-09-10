@@ -1,4 +1,4 @@
-package org.example.day48;
+package org.example.week10.day48;
 
 public class MyHashSet {
 

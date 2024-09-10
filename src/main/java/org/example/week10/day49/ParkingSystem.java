@@ -1,4 +1,4 @@
-package org.example.day49;
+package org.example.week10.day49;
 
 public class ParkingSystem {
 

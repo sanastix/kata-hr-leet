@@ -1,4 +1,4 @@
-package org.example.day46;
+package org.example.week10.day46;
 
 import java.util.*;
 
